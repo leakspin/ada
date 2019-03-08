@@ -1,0 +1,7 @@
+{
+    "rss2json-api-key": "",
+	"urls": {
+		"hackernews": "https://news.ycombinator.com/rss",
+		"meneame": "https://www.meneame.net/rss"
+	}
+}
