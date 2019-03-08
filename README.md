@@ -20,7 +20,7 @@ If you want to use your own RSS feed, you have to follow these steps:
 ```
 mynewfeed: new GenericHandler(),
 ```
-1. (Optional) Develop a handler specific for the new feed. [GenericHandler.js](/src/js/handler/GenericHandler.js) pretty much covers everything but, for example, Menéame does have a special
+3. (Optional) Develop a handler specific for the new feed. [GenericHandler.js](/src/js/handler/GenericHandler.js) pretty much covers everything but, for example, Menéame does have a special
 
 ## Acknowledgements
 
