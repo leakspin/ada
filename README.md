@@ -4,7 +4,7 @@ RSS Reader using Webpack for compiling. This is just a test to use the magnifice
 
 ## Config
 
-Inside src/js, you have a config.json.dist that you have to fill in order to use the website correctly.  
+Inside src/js, you have a [config.json.dist](/src/js/config.json.dist) that you have to fill in order to use the website correctly.  
 First, go to [rss2json](https://rss2json.com/), get a (free) API key and write it on you brand new config.json file, copied from config.json.dist.  
 And that's it! You can enjoy Ada with her own RSS sources: HackerNews and Menéame.
 
@@ -20,7 +20,7 @@ If you want to use your own RSS feed, you have to follow these steps:
 ```
 mynewfeed: new GenericHandler(),
 ```
-3. (Optional) Develop a handler specific for the new feed. GenericHandler pretty much covers everything but, for example, Menéame does have a special handler.
+1. (Optional) Develop a handler specific for the new feed. [GenericHandler.js](/src/js/handler/GenericHandler.js) pretty much covers everything but, for example, Menéame does have a special
 
 ## Acknowledgements
 
