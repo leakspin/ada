@@ -1,0 +1,9 @@
+{
+	"urls": {
+		"hackernews": {"url": "https://news.ycombinator.com/rss"},
+		"meneame": {"url": "https://www.meneame.net/rss"},
+		"vidaextra": {"url": "http://feeds.weblogssl.com/vidaextra"},
+		"xataka": {"url": "http://feeds.weblogssl.com/xataka2"},
+		"magnet": {"url": "http://feeds.weblogssl.com/xatakamagnet2"}
+	}
+}

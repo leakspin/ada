@@ -3,6 +3,7 @@ const path = require('path');
 
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const generateHTMLPlugins = () => glob.sync('./src/**/*.html').map(
   dir => new HTMLWebpackPlugin({
@@ -39,6 +40,7 @@ module.exports = {
         to: './static/',
       },
     ]),
+    new Dotenv(),
     ...generateHTMLPlugins(),
   ],
   stats: {

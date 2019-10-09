@@ -53,6 +53,7 @@
     "last 2 versions"
   ],
   "dependencies": {
+    "dotenv-webpack": "^1.7.0",
     "moment": "^2.24.0"
   }
 }

@@ -14,7 +14,7 @@ class Rss {
     let hasBegun = true;
     Promise.all(Object.keys(urls).map(async (source) => {
       let url = '';
-      const apikey = this.config['rss2json-api-key'];
+      const apikey = process.env.RSS2JSONAPIKEY;
       try {
         url = new URL(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(urls[source].url)}&count=100&api_key=${apikey}`);
       } catch (e) {
@@ -58,7 +58,7 @@ class Rss {
             frag.appendChild(temp);
 
             if (hasBegun) {
-              document.querySelector('output').textContent = '';
+              document.querySelector('output').innerHTML = '';
               hasBegun = false;
             }
             document.querySelector('output').appendChild(frag);
