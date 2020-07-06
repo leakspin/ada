@@ -14,7 +14,7 @@ class MeneameHandler {
   }
 
   static getId(item) {
-    const result = /media_thumb-link-(\d+)/.exec(item.description);
+    const result = /go\?id\=(\d+)/.exec(item.description);
     return result ? result[1] : null;
   }
 }
