@@ -2,6 +2,9 @@
 
 RSS Reader using Webpack for compiling. This is just a test to use the magnificent and perfect boilerplate from [Erick Zhao](https://github.com/erickzhao/static-html-webpack-boilerplate).
 
+## Archive Mode
+No longer maintaning it after OVH fire.
+
 ## Config
 
 Inside src/js, you have a [config.json.dist](/src/js/config.json.dist) that you have to fill in order to use the website correctly.  
